@@ -1,5 +1,35 @@
 # Hollow Knight: Silksong Speedrunning Resources
 
+---
+
+- [Hollow Knight: Silksong Speedrunning Resources](#hollow-knight-silksong-speedrunning-resources)
+  - [Other Documents](#other-documents)
+    - [Setup](#setup)
+    - [Practice Tool Usage](#practice-tool-usage)
+    - [Manifests](#manifests)
+  - [Mods](#mods)
+    - [BepInEx](#bepinex)
+    - [DebugMod](#debugmod)
+    - [QuickWarp](#quickwarp)
+  - [Savestate Packs](#savestate-packs)
+    - [Any% NMG](#any-nmg)
+
+---
+
+## Other Documents
+
+### [Setup](/setup.md)
+
+Contains a basic guide for setting up Livesplit, OBS & the practice tools, including how to disable mods for runs.
+
+### [Practice Tool Usage](/tools_usage.md)
+
+Contains a basic guide on using DebugMod & QuickWarp.
+
+### [Manifests](/manifests.md)
+
+Contains manifest IDs for downpatching to each version of the game. Guide on how to downpatch coming soon!
+
 ## Mods
 
 These are modifications; they are not legal for Speedrun.com submissions.
