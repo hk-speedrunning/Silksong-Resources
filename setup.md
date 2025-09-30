@@ -66,7 +66,7 @@ BepInEx 5 is the modloader we use for Silksong mods. You need to install it to i
 
 - Download the x64 .zip file for your OS from [this version](https://github.com/BepInEx/BepInEx/releases/latest).
 - Extract the downloaded .zip to your Game Files[^1]. Your folder should look like this:
-  ![Folder showing the BepInEx folder alongside Hollow Knight Silksong.exe](/media/images/DebugMenu.png)
+  ![Folder showing the BepInEx folder alongside Hollow Knight Silksong.exe](/media/images/BPXInstallFolder.png)
 - Launch the game once to allow BepInEx to generate files & directories for you.
 - Check that BepInEx loaded correctly by verifying that the `BepInEx/` folder now contains a `plugins` subfolder.
 
