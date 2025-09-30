@@ -21,24 +21,20 @@
 
 We do not accept the ingame timer as it is too inaccurate and imprecise; we instead use a custom load remover in Livesplit.
 
-> [!Tip]
-> This process is due to be simplified in the coming days. Files generated using HKSplitmaker should be forwards-compatible.
-
 > [!IMPORTANT]
 > This guide is for Livesplit Windows: guides for other operating systems will come shortly. For now you can adapt the [Hollow Knight ASR guide for Livesplit One Druid](https://github.com/AlexKnauth/hollowknight-autosplit-wasm?tab=readme-ov-file#instructions-for-livesplit-one-druid).
 
 - Download the latest version of [LiveSplit](https://livesplit.org/downloads/) & extract the contents to a new `Livesplit/` folder.
   - This folder can be anywhere you like, but some Windows installs may prevent Livesplit from working properly if it is in your Downloads folder.
-- Download the [most recent version of the autosplitter](https://github.com/AlexKnauth/silksong-autosplit-wasm) (specifically `silksong_autosplit_wasm_stable.wasm`). Save this file directly to `C:/`.
-  - If you cannot write to `C:/` or wish to store it elsewhere, read the instructions on HKSplitmaker on using a different location.
 
 Configuring the autosplitter manually is not recommended, as it is more complex & the configuration wizard is unusably slow. Instead, we recommend generating [HKSplitmaker](https://hksplitmaker.com/?game=silksong) to generate the splits with icons & the autosplitter preconfigured.
 
 - Go to [HKSplitmaker](https://hksplitmaker.com/?game=silksong) & find pre-made splits for your category, then press `Generate`.
   - If your category does not have pre-made splits, use the UI to create your own.
-- Press `Download` - HKSplitmaker will then prompt you to save 2 files, a `lss` and a `lsl` file.
+- Press `Download` - HKSplitmaker will then prompt you to save a `lss` file.
 - Open Livesplit & `Right Click -> Open Splits...`. Select the `lss` file you just downloaded.
-- Then `Right Click -> Open Layout...`. Select the `lsl` file you just downloaded.
+- Verify the autosplitter has downloaded successfully by pressing `Right Click > Edit Splits... > (above the splits table) Settings`. This window should have more than 2 items in it; if it only has 2 items, close the splits file without saving & restart Livesplit.
+  - _This is because on first download Livesplit may delete the settings saved in the LSS file; this workaround ensures you don't accidentally delete the autosplitter config._
 - `Right Click -> Compare Against... -> Game Time`. This tells Livesplit to show you the load-removed time, rather than real time.
 
 ## Recording using OBS
