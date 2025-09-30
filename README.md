@@ -54,11 +54,15 @@ Usage: See the [Practice Tool Usage Guide](/tools_usage.md#quickwarp)
 
 These are pre-made savestates made for DebugMod. See the [Practice Tool Usage Guide](/tools_usage.md#savestates-outside-the-game) for information on using these.
 
+Some of these links will redirect you to a Github page for the file - press the Download button on the right to download the file.
+
 > [!IMPORTANT]
 > Current routes for every category are still changing rapidly; as such these savestates may rapidly become out of date.
 
 ### Any% NMG
 
+- [Latest Patch Bell Route w/ N1 & Silkspear](/savestates/Silksong%20Bells%20Route%20DebugMod%20Savestates.zip)<br/>
+  Courtesy of `@alejsxy`.
 - [Latest Patch Cloakful Mist Route w/ N1 & Silkspear + Bell Route extras](https://files.catbox.moe/cubveb.rar)<br/>
   Courtesy of `@sora201710` & `@noslep_ivy`. NB: Bell states start on page 9.
 - [Release Patch Cloakless Flea+Mist Route w/ N1 & Silkspear](https://files.catbox.moe/50k7u4.zip)<br />
