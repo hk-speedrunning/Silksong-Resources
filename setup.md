@@ -84,7 +84,7 @@ This method adds a separate game to Steam which will always launch with BepInEx.
 
 ### DebugMod
 
-DebugMod is the premier practice tool for Silksong, based on HK's DebugMod. A simple usage guide can be found [here].
+DebugMod is the premier practice tool for Silksong, based on HK's DebugMod. A simple usage guide can be found [here](/tools_usage.md).
 
 - Download `DebugMod.zip` from the [Release Page](https://github.com/hk-speedrunning/Silksong.DebugMod).
 - Extract the `DebugMod.zip`'s contents to `Game Files`[^1]`/BepInEx/plugins`.
