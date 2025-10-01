@@ -33,6 +33,7 @@ Configuring the autosplitter manually is not recommended, as it is more complex 
   - If your category does not have pre-made splits, use the UI to create your own.
 - Press `Download` - HKSplitmaker will then prompt you to save a `lss` file.
 - Open Livesplit & `Right Click -> Open Splits...`. Select the `lss` file you just downloaded.
+- Activate the autosplitter if it hasn't been already. `Right Click > Edit Splits` and click the `Activate` button above the splits table next to the note about the configurable load remover.
 - Verify the autosplitter has downloaded successfully by pressing `Right Click > Edit Splits... > (above the splits table) Settings`. This window should have more than 2 items in it; if it only has 2 items, close the splits file without saving & restart Livesplit.
   - _This is because on first download Livesplit may delete the settings saved in the LSS file; this workaround ensures you don't accidentally delete the autosplitter config._
 - `Right Click -> Compare Against... -> Game Time`. This tells Livesplit to show you the load-removed time, rather than real time.
