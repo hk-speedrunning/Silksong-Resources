@@ -25,6 +25,7 @@ We do not accept the ingame timer as it is too inaccurate and imprecise; we inst
 
 - Download the latest version of [LiveSplit](https://livesplit.org/downloads/) & extract the contents to a new `Livesplit/` folder.
   - This folder can be anywhere you like, but some Windows installs may prevent Livesplit from working properly if it is in your Downloads folder.
+  - You must have LiveSplit version 1.8.34 or later. You can check the version via right click -> `About`. Livesplit automatically prompts you for updates to both itself and the autosplitter - please don't reject any of these updates.
 
 Configuring the autosplitter manually is not recommended, as it is more complex & the configuration wizard is unusably slow. Instead, we recommend generating [HKSplitmaker](https://hksplitmaker.com/?game=silksong) to generate the splits with icons & the autosplitter preconfigured.
 
