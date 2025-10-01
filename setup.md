@@ -21,8 +21,7 @@
 
 We do not accept the ingame timer as it is too inaccurate and imprecise; we instead use a custom load remover in Livesplit.
 
-> [!IMPORTANT]
-> This guide is for Livesplit Windows: guides for other operating systems will come shortly. For now you can adapt the [Hollow Knight ASR guide for Livesplit One Druid](https://github.com/AlexKnauth/hollowknight-autosplit-wasm?tab=readme-ov-file#instructions-for-livesplit-one-druid).
+### LiveSplit (Windows)
 
 - Download the latest version of [LiveSplit](https://livesplit.org/downloads/) & extract the contents to a new `Livesplit/` folder.
   - This folder can be anywhere you like, but some Windows installs may prevent Livesplit from working properly if it is in your Downloads folder.
@@ -36,6 +35,53 @@ Configuring the autosplitter manually is not recommended, as it is more complex 
 - Verify the autosplitter has downloaded successfully by pressing `Right Click > Edit Splits... > (above the splits table) Settings`. This window should have more than 2 items in it; if it only has 2 items, close the splits file without saving & restart Livesplit.
   - _This is because on first download Livesplit may delete the settings saved in the LSS file; this workaround ensures you don't accidentally delete the autosplitter config._
 - `Right Click -> Compare Against... -> Game Time`. This tells Livesplit to show you the load-removed time, rather than real time.
+
+### LiveSplit One Druid (Windows, Linux, Mac)
+
+Go to the [LiveSplit One Druid Latest Release](https://github.com/AlexKnauth/livesplit-one-druid/releases/latest) page,
+and under the `Assets` section, download the one for your architecture and operating system.
+
+When you run LiveSplitOne, it needs to have permission to read memory of other processes.
+- Windows: no additional steps required.
+- Linux: set the capabilities to include `CAP_SYS_PTRACE`, with a command like `sudo setcap CAP_SYS_PTRACE=+eip LiveSplitOne` to run once after downloading LiveSplitOne.
+- Mac: you have to run it under `sudo`, with a command like `sudo ./LiveSplitOne` to run every time you want to open it.
+
+Right-click or Control-click for the context menu:
+- Splits, Open... : Select your `.lss` splits file. Go to [HKSplitMaker](https://hksplitmaker.com/?game=silksong) to generate and download `.lss` splits files.
+- Open Auto-splitter... : Select the `silksong_autosplit_wasm_stable.wasm` file. Go to the [silksong-autosplit-wasm Latest Release](https://github.com/AlexKnauth/silksong-autosplit-wasm/releases/latest) to download that.
+- Compare Against: Game Time.
+- Hotkeys: Configure the hotkeys you want. The default hotkeys use numpad, so if your computer doesn't have a numpad, configure them differently.
+
+#### Mac requirement: Rosetta
+
+The autosplitter currently requires the game to be running as an Intel / x86_64 process, not an Apple / arm64 process.
+So on Apple Silicon (M1, M2, etc.) Macs, you have to run the game under Rosetta:
+- Right click on `Hollow Knight Silksong.app` in Game Files[^1], `Get Info`,  check the box for `Open using Rosetta`.
+- Next to `Hollow Knight Silksong.app`, put a [`steam_appid.txt`](https://github.com/hk-speedrunning/Silksong-Resources/releases/download/files/steam_appid.txt) file containing the number `1030300`.
+- When you open `Hollow Knight Silksong.app`, check in Activity Moniter, on the CPU tab, the Kind column should say `Intel` for Silksong, not `Apple`.
+
+### OBS LiveSplit One (Windows, Linux)
+
+Go to the [OBS LiveSplit One Latest Release](https://github.com/AlexKnauth/obs-livesplit-one/releases/latest) page,
+and under the `Assets` section, download the one for your architecture and operating system.
+Follow the instructions in [How to install](https://github.com/AlexKnauth/obs-livesplit-one?tab=readme-ov-file#how-to-install):
+- Windows: Extract the `obs-livesplit-one.dll` to `C:\Program Files\obs-studio\obs-plugins\64bit` or equivalent install directory.
+- Linux: Ensure the plugins folder exists with `mkdir -p $HOME/.config/obs-studio/plugins`, then extract with a command like `tar -zxvf obs-livesplit-one-*-x86_64-unknown-linux-gnu.tar.gz -C $HOME/.config/obs-studio/plugins/`.
+
+When you run OBS, it needs to have permission to read memory of other processes.
+- Windows: no additional steps required.
+- Linux: set the capabilities to include `CAP_SYS_PTRACE`, with a command like `sudo setcap CAP_SYS_PTRACE=+eip /usr/bin/obs` to run once after downloading OBS.
+
+Add OBS Source: LiveSplit One.
+
+Properties:
+- Splits: Select your splits file. Go to [HKSplitMaker](https://hksplitmaker.com/?game=silksong) to generate and download `.lss` splits files.
+- Activate
+
+Open the OBS Settings from File, Settings:
+- Go to the Hotkeys section and scroll down until you find LiveSplit One.
+- Set a hotkey for `Toggle Timing Method`, and hit Ok.
+- Hit that hotkey once to switch from the default, Real Time, to Game Time.
 
 ## Recording using OBS
 
