@@ -7,6 +7,10 @@
 
 - [Setup Guides](#setup-guides)
   - [Livesplit](#livesplit)
+    - [LiveSplit (Windows)](#livesplit-windows)
+    - [LiveSplit One Druid (Windows, Linux, Mac)](#livesplit-one-druid-windows-linux-mac)
+      - [Mac requirement: Rosetta](#mac-requirement-rosetta)
+    - [OBS LiveSplit One (Windows, Linux)](#obs-livesplit-one-windows-linux)
   - [Recording using OBS](#recording-using-obs)
   - [Installing Practice Mods](#installing-practice-mods)
     - [BepInEx](#bepinex)
@@ -27,7 +31,7 @@ We do not accept the ingame timer as it is too inaccurate and imprecise; we inst
   - This folder can be anywhere you like, but some Windows installs may prevent Livesplit from working properly if it is in your Downloads folder.
   - You must have LiveSplit version 1.8.34 or later. You can check the version via right click -> `About`. Livesplit automatically prompts you for updates to both itself and the autosplitter - please don't reject any of these updates.
 
-Configuring the autosplitter manually is not recommended, as it is more complex & the configuration wizard is unusably slow. Instead, we recommend generating [HKSplitmaker](https://hksplitmaker.com/?game=silksong) to generate the splits with icons & the autosplitter preconfigured.
+Configuring the autosplitter manually is not recommended, as it is more complex & the configuration wizard is unusably slow. Instead, we recommend using [HKSplitmaker](https://hksplitmaker.com/?game=silksong) to generate the splits with icons & the autosplitter preconfigured.
 
 - Go to [HKSplitmaker](https://hksplitmaker.com/?game=silksong) & find pre-made splits for your category, then press `Generate`.
   - If your category does not have pre-made splits, use the UI to create your own.
