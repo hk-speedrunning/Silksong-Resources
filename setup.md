@@ -153,7 +153,7 @@ A mod that lets you warp to any scene in the game by pressing F5.
 
     - Windows: `C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight Silksong\`
     - Linux: `~/.local/share/Steam/steamapps/common/Hollow Knight Silksong/`
-    - MacOS: `~/Library/Application Support/unity.Team-Cherry.Silksong`
+    - MacOS: `~/Library/Application Support/Steam/steamapps/common/Hollow Knight Silksong/Hollow Knight Silksong.app`
 
 [^2]: Some internet providers may block GitHub addresses from resolving (eg. Chinese ISPs). You can add a custom DNS resolution to hopefully bypass this.
 
