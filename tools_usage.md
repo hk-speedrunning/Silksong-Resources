@@ -20,7 +20,7 @@
 
 ## DebugMod Menu
 
-Once DebugMod is installed, press F1 while ingame to bring up the menu. It might look daunting at first, but everything here is helpful!
+Once DebugMod is installed, press F2 while ingame to bring up the menu. It might look daunting at first, but everything here is helpful!
 
 To interact with it, you may need to pause to prevent the mouse getting captured. You can also bind `Toggle Cursor` in `Binds Panel > Visual` to allow you to unlock the cursor at any time.
 
