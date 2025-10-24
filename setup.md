@@ -139,14 +139,14 @@ This method adds a separate game to Steam which will always launch with BepInEx.
 
 DebugMod is the premier practice tool for Silksong, based on HK's DebugMod. A simple usage guide can be found [here](/tools_usage.md).
 
-- Download `DebugMod.zip` from the [Release Page](https://github.com/hk-speedrunning/Silksong.DebugMod).
+- Download `DebugMod.zip` from the [Release Page](https://github.com/hk-speedrunning/Silksong.DebugMod/releases/latest).
 - Extract the `DebugMod.zip`'s contents to `Game Files`[^1]`/BepInEx/plugins`.
 
 ### QuickWarp
 
 A mod that lets you warp to any scene in the game by pressing F5.
 
-- Download `QuickWarp.zip` from the [Release Page](https://github.com/hk-speedrunning/Silksong.QuickWarp).
+- Download `QuickWarp.zip` from the [Release Page](https://github.com/hk-speedrunning/Silksong.QuickWarp/releases/latest).
 - Extract the `QuickWarp.zip`'s contents to `Game Files`[^1]`/BepInEx/plugins`.
 
 [^1]: Game files are located _(by default using Steam)_ at:
