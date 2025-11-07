@@ -65,7 +65,8 @@ The autosplitter currently requires the game to be running as an Intel / x86_64 
 So on Apple Silicon (M1, M2, etc.) Macs, you have to run the game under Rosetta:
 - Right click on `Hollow Knight Silksong.app` in Game Files[^1], `Get Info`,  check the box for `Open using Rosetta`.
 - Next to `Hollow Knight Silksong.app`, put a [`steam_appid.txt`](https://github.com/hk-speedrunning/Silksong-Resources/releases/download/files/steam_appid.txt) file containing the number `1030300`.
-- When you open `Hollow Knight Silksong.app`, check in Activity Moniter, on the CPU tab, the Kind column should say `Intel` for Silksong, not `Apple`.
+- Open `Hollow Knight Silksong.app` directly from where it is in Game Files, not from your Steam library.
+- Check in Activity Moniter, on the CPU tab, the Kind column should say `Intel` for Silksong, not `Apple`.
 
 ### OBS LiveSplit One (Windows, Linux)
 
