@@ -15,6 +15,7 @@ For all releases the app ID is `1030300`. Depot & manifest IDs for each platform
     - [1.0.28714](#1028714)
     - [1.0.28891](#1028891)
     - [1.0.29242](#1029242)
+    - [1.0.29315](#1029315)
   - [Beta Patches](#beta-patches)
 
 ---
@@ -77,11 +78,19 @@ https://www.teamcherry.com.au/blog/silksong-patch-4
 
 https://store.steampowered.com/news/app/1030300/view/595164831678464450
 
-AKA Latest Patch. This is the currently live version on Steam.
-
 - Windows: `1030301 426651197780377263`
 - MacOS: `1030302 2058007571598677908`
 - Linux: `1030303 8078874762924599313`
+
+### 1.0.29315
+
+https://steamcommunity.com/app/1030300/discussions/0/670600486987142014/
+
+AKA Latest Patch. This is the currently live version on Steam.
+
+- Windows: `1030301 3545882420322545098`
+- MacOS: `1030302 7345001466169537628`
+- Linux: `1030303 4349246050376532986`
 
 ## Beta Patches
 
