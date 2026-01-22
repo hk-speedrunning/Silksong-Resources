@@ -62,6 +62,11 @@ https://store.steampowered.com/news/app/1030300/view/503962497384974197
 - MacOS: `1030302 7917356342743942630`
 - Linux: `1030303 1617544312110692774`
 
+This patch has 2 versions, the ones above have a newer Unity version which makes some glitches harder. The below have the old Unity version:
+- Windows: `1030301 6773297648406051922`
+- MacOS: `1030302 7562703448257682540`
+- Linux: same as above
+
 ### 1.0.28891
 
 https://www.teamcherry.com.au/blog/silksong-patch-3
