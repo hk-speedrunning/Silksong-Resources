@@ -97,7 +97,7 @@ Our resources include Savestate packs; these are sets of savestate files that pe
 [Savestate Pack]
 Each numbered folder is a page, and the `savestateN.json` files are individual savestates, in the order they appear on the page.
 
-To install a savestate pack, go to your save files[^1] & open `DebugModData/Savestates Current Patch`. Then extract the contents of the savestate pack to this folder; allow overwrites if prompted.
+To install a savestate pack, go to your save files[^1] & open `DebugModData/Savestates 1.0`. Then extract the contents of the savestate pack to this folder; allow overwrites if prompted.
 
 When you load into the game, the savestates menu will contain these new savestates.
 
