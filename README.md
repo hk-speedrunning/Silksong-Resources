@@ -56,14 +56,18 @@ These are pre-made savestates made for DebugMod. See the [Practice Tool Usage Gu
 
 Some of these links will redirect you to a Github page for the file - press the Download button on the right to download the file.
 
+Additionally some of these savestate packs (and many others provided in the discord) go *over* the 10 page limit. To increase your page limit to view and use all of them, [see this guide](/tools_usage.md#i-need-more-pages).
+
 > [!IMPORTANT]
 > Current routes for every category are still changing rapidly; as such these savestates may rapidly become out of date.
 
 ### Any% NMG
 
-- [Latest Patch Bell Route w/ N1 & Silkspear](/savestates/Silksong%20Bells%20Route%20DebugMod%20Savestates.zip)<br/>
-  Courtesy of `@alejsxy`.
-- [Latest Patch Cloakful Mist Route w/ N1 & Silkspear + Bell Route extras](https://files.catbox.moe/cubveb.rar)<br/>
+- [Latest Patch Bell Route](https://github.com/vichisuki/vichisuki-Silksong-Practice-Resources)<br/>
+  Courtesy of `@vichisuki`. NB: Contains both livesplit files, and savestates, split by IL, Movement, Bosses, and Tricks.
+- [Release Patch Key Route](/savestates/KeyRoutePack.zip)<br/>
+  Courtesy of `@jura3`, `_@cyv`, and `@zoph` NB: Contains both livesplit files, and savestates, split by IL, Movement, Bosses, and Tricks.
+- [Latest Patch Cloakful Mist Route + Bell Route extras](https://files.catbox.moe/cubveb.rar)<br/>
   Courtesy of `@sora201710` & `@noslep_ivy`. NB: Bell states start on page 9.
-- [Release Patch Cloakless Flea+Mist Route w/ N1 & Silkspear](https://files.catbox.moe/50k7u4.zip)<br />
+- [Release Patch Cloakless Flea Route](https://files.catbox.moe/50k7u4.zip)<br />
   Courtesy of `@vespher`. NB: contains an optional folder containing Claw Mirror states.
