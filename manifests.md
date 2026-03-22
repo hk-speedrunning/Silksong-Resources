@@ -109,11 +109,19 @@ https://store.steampowered.com/news/app/1030300/view/528748148995130140
 
 https://store.steampowered.com/news/app/1030300/view/528748148995130140
 
-AKA Latest Patch. This is the currently live version on Steam.
-
 - Windows: `1030301 3703686001292550981`
 - MacOS: `1030302 4837712425280970616`
 - Linux: `1030303 6891565886978421564`
+
+### 1.0.29980
+
+AKA Latest Patch. This is the currently live version on Steam.
+
+No patch notes were provided.
+
+- Windows: `1030301 468692862190470536`
+- MacOS: `1030302 4899622998101152532`
+- Linux: `1030303 7780372375671997910`
 
 ## Beta Patches
 
