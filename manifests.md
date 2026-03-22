@@ -18,6 +18,7 @@ For all releases the app ID is `1030300`. Depot & manifest IDs for each platform
     - [1.0.29315](#1029315)
     - [1.0.29909](#1029909)
     - [1.0.29926](#1029926)
+    - [1.0.29980](#1029980)
   - [Beta Patches](#beta-patches)
 
 ---
