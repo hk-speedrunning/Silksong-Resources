@@ -19,6 +19,7 @@ For all releases the app ID is `1030300`. Depot & manifest IDs for each platform
     - [1.0.29909](#1029909)
     - [1.0.29926](#1029926)
     - [1.0.29980](#1029980)
+    - [1.0.30000](#1030000)
   - [Beta Patches](#beta-patches)
 
 ---
@@ -116,13 +117,21 @@ https://store.steampowered.com/news/app/1030300/view/528748148995130140
 
 ### 1.0.29980
 
-AKA Latest Patch. This is the currently live version on Steam.
-
 No patch notes were provided.
 
 - Windows: `1030301 468692862190470536`
 - MacOS: `1030302 4899622998101152532`
 - Linux: `1030303 7780372375671997910`
+
+### 1.0.30000
+
+AKA Latest Patch. This is the currently live version on Steam.
+
+https://store.steampowered.com/news/app/1030300/view/528748148995130140
+
+- Windows: `1030301 4421626056705534276`
+- MacOS: `1030302 4136280015582261500`
+- Linux: `1030303 7921642076658611197`
 
 ## Beta Patches
 
